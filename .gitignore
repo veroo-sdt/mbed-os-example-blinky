@@ -2,3 +2,5 @@
 .mbed
 projectfiles
 *.py*
+
+sdt-iot-core/communication/HTTP/mbed-http/*

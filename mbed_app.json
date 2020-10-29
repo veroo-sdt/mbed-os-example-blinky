@@ -1,0 +1,16 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "mbed-trace.enable": 1,
+            "platform.stdio-baud-rate": 115200,
+            "platform.all-stats-enabled": true,
+            "rtos.main-thread-stack-size": 8192
+        },
+        "NUCLEO_F429ZI": {
+            "target.macros_add" : ["MBEDTLS_SHA1_C"],
+            "target.stdio_uart_tx": "PD_5",
+            "target.stdio_uart_rx": "PD_6"
+        }
+    }
+}

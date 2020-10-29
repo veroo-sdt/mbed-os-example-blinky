@@ -1,0 +1,7 @@
+mbed-http/TESTS/*
+mbed-http/.lock
+mbed-http/img/*
+mbed-http/source/http_request.h
+mbed-http/source/http_request_base.h
+mbed-http/source/http_response.h
+mbed-http/source/https_request.h
